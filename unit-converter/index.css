@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background: #6943fe;
+    color: white;
+    padding: 30px;
+}
+
+.main {
+    background: #1F2937;
+    padding: 10px;
+}
+
+.volume-section,
+.length-section,
+.mass-section {
+    background: #273549; 
+    color: #CCC1FF;
+    margin: 20px;
+    padding: 5px;
+}
+
+#convert-btn{
+    background: #ffffff;
+    color: #1F2937;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+input{
+    margin: 20px;
+    padding: 15px 20px;
+    text-align: center;
+    background: #6943fe;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    width: 30px;
+    
+    
+}
